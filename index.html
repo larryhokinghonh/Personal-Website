@@ -3,81 +3,54 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My Personal Website 😊</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Larry's Personal Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- This link element specifies a location where if users don't have these fonts already installed/cached on their computer, then the browser will take them to this location and grab those fonts for them. -->
 </head>
 
 <body>
-    <table cellspacing="10">
-        <tbody>
-        <tr>
-            <td>
-                <!-- This image is hosted on LinkedIn servers. When loading the website, we will ping the LinkedIn server to retrieve the image. -->
-                <img src="https://media-exp1.licdn.com/dms/image/D5603AQELhxnAJO4VBA/profile-displayphoto-shrink_200_200/0/1666100840395?e=1676505600&v=beta&t=h-T_cIfus4TSmbMnlCloTwlgkOvry_-Ku1j-wCEdecU" alt="Ho King Honh">
-            </td>
-            <td><h1>Ho King Honh</h1>
-                <p><em>Gap Year Student from Malaysia.</em></p>
-                <p>Hello! I am an aspiring computer scientist that is continuously looking for opportunities to learn and grow.<br><a href="https://www.linkedin.com/in/ho-king-honh-larry-a25665215/" target="_blank">LinkedIn Profile</a></p>
-            </td>
-        </tr>
-        </tbody> 
-    </table>
-    <hr size="2">
-    <h3>Education</h3>
-    <ul>
-        <li>INTI International University & Colleges</li>
-            <ul>
-                <li>Grades: A*A*AB</li>
-                <li>Activities and Societies: Treasurer (ex-Assistant Treasurer) of Pre-University Club ⦁ INTIMA Council Training 2022</li>
-                <li>Subjects: Mathematics, Physics, Further Mathematics & Economics</li>
-                <li>Kijang Economics Competition 2022 (Gold Medal)</li>
-                <li>Beaver Computational Thinking Competition 2021 (Honorable Mention)</li>
-            </ul>
-        <br>
-        <li>Wesley Methodist School Kuala Lumpur (International)</li>
-        <ul>
-            <li>Grade: 8A* 1A 1B | SPM BM: C</li>
-            <li>Activities and Societies: President (ex-Vice President) of Graphics Design Club ⦁ Advertising Coordinator for TechFest exhibition</li>
-        </ul>
-    </ul>
-    <hr size="2">
-    <h3>Volunteering Experience</h3>
-    <table border="2">
-        <thead>
-            <th>Date</th>
-            <th>Company</th>
-            <th>Experience</th>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Dec 2019</td>
-            <td>Flipbizz</td>
-            <td>Introduced the company's mobile application and explained its features in an exhibition and persuaded shop owners nearby the office to adopt the application as such bringing in 50-100 new downloaders.</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Poverty Alleviation Movement (PAM)</td>
-            <td>Helped distribute necessities to vulnerable groups in Malaysia during the Covid-19 pandemic & wrote short articles on the organization's Facebook page. Enhanced my photography skills by taking up the photographer role when manpower is short-handed.</td>
-        </tr>
-        <tr>
-            <td>Oct 2022 - Present</td>
-            <td>Flipbizz</td>
-            <td></td>
-        </tr>
-        </tbody>
-    </table>
-    <hr size="2">
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>Python ⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Web Development ⭐</td>
-        </tr>
-    </table>
-    <br>
-    <a href="Hobbies.html">My Hobbies</a>
-    <a href="Contact Me.html">Contact Me</a>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Larry.</h1>
+        <h2>an aspiring Computer Science student.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="profile-picture-img" src="images/profile-picture-img.jpg" alt="profile-picture-img">
+          <h2>Hello!</h2>
+          <p>I am a gap year student based in Malaysia.<br>I have a passion for Computer Science and I hope to help my<br>community with my knowledge in this field.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills</h2>
+          <div class="skill-row">
+            <img class="first-skill-img" src="images/python-logo.gif" alt="python-logo-gif">
+            <h3>Python Programming</h3>
+            <p>I have made several projects with Python. The most notable one is using it to create an exchange rate program with the help of ExchangeRate API.</p>
+          </div>
+          <div class="skill-row">
+            <img class="second-skill-img" src="images/web-development-img.png" alt="web-development-img">
+            <h3>Web Development</h3>
+            <p>Web Development is a skill that I have picked up recently. Soon I will be proficient in this skill.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <a class="btn" href="mailto:larryhokinghonh@email.com">Contact Me</a>
+        </div>
+      </div>
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/ho-king-honh-larry-a25665215/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/hokinghonhhhhhh">Twitter</a>
+        <p>© Larry Ho King Honh.</p>
+      </div>
 </body>
 
 </html>
